@@ -1,8 +1,33 @@
-# my_time_app
+# Globe Time App
 
-A new Flutter project.
+## Description
+    
+The main motive behind to make this App was to show the Time data of diffrent country of all over the Globe live. So I have used WorldTime API to show the Time data in my App.
+      
+[World Time API](http://worldtimeapi.org/) is a simple web service which returns the local time for a given timezone. (is Currently in Daylight Savings time, when DST start and ends the UTC offset etc.)
+      
+The API returns JSON Adding a suffix of .txt to any API, url will return a plane_text response.
 
-## Getting Started
+## Flutter Package Dependencies are used
+ 
+- [intl: ^0.16.1](https://pub.dev/packages/intl)
+- [http: ^0.12.1](https://pub.dev/packages/http)
+- [flutter_spinkit: ^4.1.1+1](https://pub.dev/packages/flutter_spinkit)
+- [google_fonts:"^1.1.1"](https://pub.dev/packages/google_fonts)
+    
+## Technology
+ 
+ - [JSON](https://json.org)
+ - [Dart](https://dart.dev)
+ - [Flutter](https//flutter.dev)
+      
+ ## Tools
+ 
+- [Android Studio](https://d.android.com/studio/)
+- [VS Code](https://code.visualstudio.com/)
+      
+ 
+## Learn more and Getting Started with Flutter
 
 This project is a starting point for a Flutter application.
 

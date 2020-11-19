@@ -1,5 +1,5 @@
 name: my_time_app
-description: A new Flutter project.
+description: Flutter Fun app for World Time.
 version: 1.0.0+1
 
 environment:
@@ -9,6 +9,7 @@ dependencies:
   intl: ^0.16.1
   flutter:
     sdk: flutter
+
   http: ^0.12.1
   flutter_spinkit: ^4.1.1+1
   google_fonts: ^1.1.1
