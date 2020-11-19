@@ -21,7 +21,7 @@ The API returns JSON Adding a suffix of .txt to any API, url will return a plane
 <br/>
 
 - <b>Day Time View </b><br/>
-<code><img height="480" src="https://raw.githubusercontent.com/PhaijanKhan/GlobeTimeApp/master/snapshots/Day_view.jpg"></code> 
+<code><img height="480" src="https://raw.githubusercontent.com/PhaijanKhan/GlobeTimeApp/master/snapshots/day_time_view.jpg"></code> 
 <br/>
 
 - <b>Night Time View </b><br/>
