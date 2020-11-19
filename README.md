@@ -8,6 +8,27 @@ The main motive behind to make this App was to show the Time data of diffrent co
       
 The API returns JSON Adding a suffix of .txt to any API, url will return a plane_text response.
 
+## App Snapshots
+
+<center>
+
+- <b>Home </b><br/>
+<code><img height="480" src="https://raw.githubusercontent.com/PhaijanKhan/GlobeTimeApp/master/snapshots/Home.jpg"></code> 
+<br/>
+
+- <b>Choosing Location for Time </b><br/>
+<code><img height="480" src="https://raw.githubusercontent.com/PhaijanKhan/GlobeTimeApp/master/snapshots/Choose_location.jpg"></code> 
+<br/>
+
+- <b>Day Time View </b><br/>
+<code><img height="480" src="https://raw.githubusercontent.com/PhaijanKhan/GlobeTimeApp/master/snapshots/Day_view.jpg"></code> 
+<br/>
+
+- <b>Night Time View </b><br/>
+<code><img height="480" src="https://raw.githubusercontent.com/PhaijanKhan/GlobeTimeApp/master/snapshots/Night_view.jpg"></code> 
+<br/>
+</center>
+
 ## Flutter Package Dependencies are used
  
 - [intl: ^0.16.1](https://pub.dev/packages/intl)
