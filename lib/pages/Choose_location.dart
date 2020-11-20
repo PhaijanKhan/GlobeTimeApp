@@ -9,15 +9,38 @@ class ChooseLocation extends StatefulWidget {
 
 class _ChooseLocationState extends State<ChooseLocation> {
   List<WorldTime> locations = [
+    WorldTime(url: 'Asia/Bangkok', location: 'BANGKOK', flag: 'thailand.png'),
+    WorldTime(url: 'Asia/Hong_Kong', location: 'HONG_KONG', flag: 'hong_kong.png'),
     WorldTime(url: 'Asia/Kolkata', location: 'KOLKATA', flag: 'india.png'),
-    WorldTime(url: 'Europe/London', location: 'LONDON', flag: 'uk.png'),
-    WorldTime(url: 'America/Chicago', location: 'CHICAGO', flag: 'usa.png'),
-    WorldTime(url: 'America/New_York', location: 'NEW YORK', flag: 'usa.png'),
-    WorldTime(url: 'Europe/Berlin', location: 'ATHENS', flag: 'greece.png'),
-    WorldTime(url: 'Africa/Cairo', location: 'CAIRO', flag: 'egypt.png'),
-    WorldTime(url: 'Africa/Nairobi', location: 'NAIROBI', flag: 'kenya.png'),
+    WorldTime(url: 'Asia/Kabul', location: 'KABUL', flag: 'afganistan.png'),
     WorldTime(url: 'Asia/Seoul', location: 'SEOUL', flag: 'south_korea.png'),
     WorldTime(url: 'Asia/Jakarta', location: 'JAKARTA', flag: 'indonesia.png'),
+
+    WorldTime(url: 'Australia/Darwin', location: 'DARWIN', flag: 'australia.png'),
+    WorldTime(url: 'Australia/Hobart', location: 'HOBART', flag: 'australia.png'),
+    WorldTime(url: 'Australia/Perth', location: 'PERTH', flag: 'australia.png'),
+    WorldTime(url: 'Australia/Sydney', location: 'SYDNEY', flag: 'australia.png'),
+
+    WorldTime(url: 'Europe/London', location: 'LONDON', flag: 'uk.png'),
+    WorldTime(url: 'Europe/Berlin', location: 'ATHENS', flag: 'germany.png'),
+    WorldTime(url: 'Europe/Istanbul', location: 'ISTANBUL', flag: 'turkey.png'),
+    WorldTime(url: 'Europe/Paris', location: 'PARIS', flag: 'france.png'),
+
+    WorldTime(url: 'America/Chicago', location: 'CHICAGO', flag: 'usa.png'),
+    WorldTime(url: 'America/Argentina/San_Luis', location: 'SAN_LUIS', flag: 'argentina.png'),
+    WorldTime(url: 'America/Jamaica', location: 'JAMAICA', flag: 'jamaica.png'),
+    WorldTime(url: 'America/New_York', location: 'NEW YORK', flag: 'usa.png'),
+    WorldTime(url: 'America/Mexico_City', location: 'MEXICO_CITY', flag: 'Mexico_City.png'),
+
+    WorldTime(url: 'Antarctica/Davis', location: 'DAVIS', flag: 'davis.jpg'),
+    WorldTime(url: 'Antarctica/Syowa', location: 'SYOWA', flag: 'syowa.jpg'),
+    WorldTime(url: 'Antarctica/Troll', location: 'TROLL', flag: 'troll_antarctica.jpg'),
+
+    WorldTime(url: 'Africa/Abidjan', location: 'ABIDJAN', flag: 'Cote_dlvoire.png'),
+    WorldTime(url: 'Africa/Cairo', location: 'CAIRO', flag: 'egypt.png'),
+    WorldTime(url: 'Africa/Johannesburg', location: 'JOHANNESBURG', flag: 'south_africa.png'),
+    WorldTime(url: 'Africa/Lagos', location: 'LAGOS', flag: 'kenya.png'),
+    WorldTime(url: 'Africa/Nairobi', location: 'NAIROBI', flag: 'kenya.png'),
   ];
   void updatTime(index) async {
     WorldTime instance = locations[index];
